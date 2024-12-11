@@ -1,0 +1,20 @@
+{
+  "name": "wintermute",
+  "private": true,
+  "version": "0.0.1",
+  "author": "Mario Vega",
+  "description": "A Twine format for importing stories into the Sendero platform",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node scripts/build-format.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.6.2",
+    "vite": "^6.0.1"
+  },
+  "dependencies": {
+    "@types/node": "^22.10.1"
+  }
+}
